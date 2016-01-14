@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: org.eclipse.tracecompass.tmf.sample.ui;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.tracecompass.tmf.sample.ui.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.tracecompass.tmf.core;bundle-version="2.0.0",
+ org.eclipse.tracecompass.tmf.ui;bundle-version="2.0.0",
+ org.swtchart;bundle-version="0.7.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

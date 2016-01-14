@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="org.eclipse.tracecompass.tmf.sample.ui.SampleView"
+            id="org.eclipse.tracecompass.tmf.sample.ui.view1"
+            name="Sample View"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>
